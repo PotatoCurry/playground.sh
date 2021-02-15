@@ -36,6 +36,6 @@ sed -i s/public_html/web/ /etc/apache2/mods-available/userdir.conf
 systemctl restart apache2
 
 # Install other programs
-apt install --yes alpine finger fortune-mod mailutils tree
+apt install --yes alpine finger fortune-mod mailutils tldr tree w3m w3m-img
 
 echo "Script finished"
